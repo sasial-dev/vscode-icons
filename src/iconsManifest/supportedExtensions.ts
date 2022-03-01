@@ -1487,6 +1487,12 @@ export const extensions: IFileCollection = {
       disabled: true,
     },
     {
+      icon: 'excalidraw',
+      light: true,
+      extensions: ['excalidraw'],
+      format: FileFormat.svg,
+    },
+    {
       icon: 'excel',
       extensions: ['xls', 'xlsx', 'xlsm', 'ods', 'fods', 'xlsb'],
       format: FileFormat.svg,
