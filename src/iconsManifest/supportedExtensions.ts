@@ -2857,6 +2857,7 @@ export const extensions: IFileCollection = {
         'npm-shrinkwrap.json',
       ],
       filename: true,
+      light: true,
       format: FileFormat.svg,
     },
     {
